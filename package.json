@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "btoa": "^1.2.1",
+    "dotenv": "^10.0.0",
+    "eslint-config-acoe": "latest",
+    "node-fetch": "^2.6.1",
     "sonarqube-api": "0.0.2"
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-acoe"
+    ]
+  },
+  "type": "module"
 }
